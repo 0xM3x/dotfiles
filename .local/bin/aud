@@ -1,0 +1,23 @@
+#!/bin/bash
+
+
+getVolume () {
+	
+	VOLUME=$(pamixer --get-volume)
+	ISMUTE=$(pamixer --get-mute)
+	
+	if [ $ISMUTE = "false" ]
+	then
+		echo "$VOLUME%";
+	
+	elif [ $ISMUTE = "true" ]
+	then
+		echo "MUTE";
+	
+	else
+		echo "ERROR";
+
+	fi
+}
+
+getVolume

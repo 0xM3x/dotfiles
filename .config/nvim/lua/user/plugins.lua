@@ -56,7 +56,15 @@ return require('packer').startup(function(use)
    use { "rafamadriz/friendly-snippets" },
 
    -- Colorizer
-   use { 'norcalli/nvim-colorizer.lua' }
+   use { 'norcalli/nvim-colorizer.lua' },
+   
+   -- Markdown Preview
+   use({
+      "iamcco/markdown-preview.nvim",
+      run = function()
+          vim.fn["mkdp#util#install"]()
+          end,
+    })
 }
 
 

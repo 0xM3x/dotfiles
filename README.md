@@ -1,12 +1,9 @@
 #  0xM3x's Dotfiles
 Welcome to my dotfiles repository! This repo contains the configuration files and scripts that power my minimalist Linux desktop setup. If you’re a fan of efficient workflows, tiling window managers, and a beautiful terminal-based environment, you’ll feel right at home.
 
----
-
 ## 🖼️ Screenshot  
 ![Setup Screenshot](setup_screenshot.png)  
 
----
 ## ✨  What's Included  
 - **Neovim Configuration**: Fully customized configuration in lua for a fast and modern coding experience.  
 - **Zsh Configuration**: Includes configuration with custom aliases, plugins, and themes.  
@@ -17,7 +14,6 @@ Welcome to my dotfiles repository! This repo contains the configuration files an
 - **Scripts**: Handy custom scripts stored in the `bin/` directory.  
 - **.xinitrc File**: Defines my session startup process, launching my window manager and essential utilities.  
 
----
 ## ⚒️  Requirements  
 To use this dotfiles setup, ensure the following packages are installed on your system:
 
@@ -42,7 +38,7 @@ sudo apt update && sudo apt install libx11-dev libxft-dev libxinerama-dev npm no
 ```bash
 sudo xbps-install -S libX11-devel libXft-devel libXinerama-devel npm nodejs yarn pamixer xbacklight neovim
 ```
----
+
 ## 🚀 Installation
 ### 1️⃣ Clone This Repository
 ```bash
@@ -113,26 +109,26 @@ dotfiles/
 |             └── powerLock # A lightweight dmenu script for managing system power operations. 
 └── xinitrc/ # .xinitrc file
 ```
----
+
 ## ⚡ Features
 - **Lightweight and Minimalist:** Designed for speed and simplicity.
 - **Highly Customizable:** Make it your own with just a few tweaks.
 - **Perfect for Devs:** Includes tools and configurations tailored for developers.
 
----
-## 🧩Recommended Tools
+
+## 🧩 Recommended Tools
 - **[Neovim](https://neovim.io)** - A modern Vim-based editor.
 - **[Zoxide](https://github.com/ajeetdsouza/zoxide)** - A smarter cd command.
 - **[Starship](https://starship.rs)** - Minimal, blazing-fast shell prompt.
 - **[Exa](https://the.exa.website)** - A modern replacement for `ls` with better defaults and colors.
 
----
+
 ## 🤝 Contributing
 Feel free to fork this repository and make it your own! If you have suggestions or improvements, don’t hesitate to open an issue or pull request.
 
----
-## 📜License
+
+## 📜 License
 This repository is licensed under the MIT License. See the `LICENSE` file for more details.
 
 ---
-Happy hacking! 🚀 
+Happy hacking!  🚀 
